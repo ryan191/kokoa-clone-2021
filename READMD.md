@@ -1,2 +1,2 @@
-#kokoa clone upadate 2021
+%kokoa clone upadate 2021
 GO!!!!!!!
