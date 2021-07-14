@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__columm">
+        <span>No Service</span>
+        <i class="fa fa-wifi" aria-hidden="true"></i>
+      </div>
+      <div class="status-bar__columm">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__columm">
+        <span>110%</span>
+        <i class="fa fa-battery-full fa-lg" aria-hidden="true"></i>
+        <i class="fa fa-bolt" aria-hidden="true"></i>
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icon">
+        <span><i class="fa fa-search fa-lg" aria-hidden="true"></i></span>
+        <span><i class="fa fa-music fa-lg" aria-hidden="true"></i></span>
+        <span
+          ><a href="settings.htm"
+            ><i class="fa fa-cog fa-lg" aria-hidden="true"></i></a
+        ></span>
+      </div>
+    </header>
+    <a id="friends-display-link" href="#"
+      ><i class="fa fa-info-circle" aria-hidden="true"></i>Friends'Names
+      Display<i class="fa fa-chevron-right fa-xs" aria-hidden="true"></i
+    ></a>
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__columm">
+          <img
+            src="https://github.com/nomadcoders/kakao-clone-v2/blob/master/images/avatar.jpg?raw=true"
+            class="user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Nicolas</h4>
+            <!--<h6 class="user-component__subtitle">hi!</h6>-->
+          </div>
+        </div>
+        <div class="user-component_columm"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>channel</span
+          ><i class="fa fa-chevron-up fa-xs" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__columm">
+          <img
+            src="https://github.com/nomadcoders/kakao-clone-v2/blob/master/images/avatar.jpg?raw=true"
+            class="user-component__avatar user-component__avatar--sm"
+          />
+          <div class="user-component__text">
+            <div></div>
+            <h4 class="user-component__title user-component__title-not-bold">
+              channel
+            </h4>
+          </div>
+        </div>
+        <div class="user-component_columm">
+          2<i class="fa fa-chevron-right fa-xs"></i>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.htm"
+            ><i class="fa fa-user fa-2x" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chat.htm"
+            ><span class="nav__notification">1</span
+            ><i class="fa fa-comment-o fa-2x" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.htm"
+            ><i class="fa fa-search fa-2x" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.htm"
+            ><i class="fa fa-ellipsis-h fa-2x" aria-hidden="true"></i>
+            <span class="nav__point">. </span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

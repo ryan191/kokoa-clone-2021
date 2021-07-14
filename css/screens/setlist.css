@@ -1,0 +1,21 @@
+.setlist {
+  padding: 25px 0px;
+  border-bottom: var(--main-bar);
+}
+.setlist__li {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+}
+.setlist__text {
+  margin-left: 25px;
+  font-size: 20px;
+}
+.setlist__li i {
+  opacity: 0.8;
+}
+.setlist__columm {
+  margin-left: auto;
+  opacity: 0.8;
+  font-size: 20px;
+}
