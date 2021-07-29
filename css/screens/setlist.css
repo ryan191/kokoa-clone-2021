@@ -1,5 +1,6 @@
 .setlist {
-  padding: 25px 0px;
+  padding-top: 125px;
+  padding-bottom: 25px;
   border-bottom: var(--main-bar);
 }
 .setlist__li {

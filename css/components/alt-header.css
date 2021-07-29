@@ -2,14 +2,28 @@
   display: flex;
   align-items: center;
   padding: 50px 25px 20px 20px;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
+.alt-header__columm {
+  width: 33%;
 }
 .alt-header__columm:first-child {
   margin-right: auto;
 }
+.alt-header__columm:nth-child(2) {
+  text-align: center;
+}
 .alt-header__columm:last-child {
-  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
 }
 .alt-header__text {
   font-size: 25px;
   font-weight: 600;
+}
+.alt-header .fa-bars {
+  margin-left: 25px;
 }

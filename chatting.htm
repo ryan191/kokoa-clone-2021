@@ -41,22 +41,38 @@
       <div class="chatting-screen__head">
         <div class="chatting-screen__header">Thesday, June 30, 2020</div>
       </div>
-      <div class="chatting-screen__columm__nicolas">
+      <div class="chatting-screen__nic">
         <img
           src="https://github.com/nomadcoders/kakao-clone-v2/blob/master/images/avatar.jpg?raw=true"
           class="chatting-screen__avatar chatting-screen__avatar--sm"
         />
-        <div class="chatting-screen__text">
-          <h4 class="chatting-screen__title chatting-screen__title-not-bold">
-            Nicolas
-          </h4>
-          <div class="chatting-screen__text__bubble"><span>Hi!</span></div>
+        <div class="chatting-screen__nic__cols">
+          <h4 class="chatting-screen__nic__cols__ti">nico</h4>
+          <div class="chatting-screen__nic__cols__col">
+            <div class="chatting-screen__nic__cols__col__hi">hi!</div>
+            <div class="chatting-screen__nic__cols__col__time">21:21</div>
+          </div>
         </div>
       </div>
-      <div class="chatting-screen__columm__me">
-        <span>what's up?</span>
+      <div class="chatting-screen__nic__cols__col chat-me">
+        <div class="chatting-screen__nic__cols__col__hi">hi!</div>
+        <div class="chatting-screen__nic__cols__col__time">21:21</div>
       </div>
     </main>
+    <form id="input">
+      <div class="message-input">
+        <div class="message-input__plus">
+          <i class="fa fa-plus-square-o fa-2x" aria-hidden="true"></i>
+        </div>
+        <div class="message-input__bar__hi">
+          <input type="text" placeholder="Write a message." />
+        </div>
+        <div class="message-input__bar">
+          <i class="fa fa-smile-o fa-lg" aria-hidden="true"></i
+          ><input type="button" value="⬆" />
+        </div>
+      </div>
+    </form>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"

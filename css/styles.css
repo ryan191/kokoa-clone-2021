@@ -11,6 +11,7 @@
 @import "components/more.css";
 @import "components/alt-header.css";
 @import "components/chatting.css";
+@import "components/big-screen.css";
 
 /* screens */
 @import "screens/login.css";

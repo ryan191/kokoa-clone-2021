@@ -12,3 +12,14 @@
 .screen-header__icon span {
   margin-left: 25px;
 }
+@keyframes cogspin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.screen-header .fa-cog:hover {
+  animation: cogspin 1s ease-in-out infinite;
+}

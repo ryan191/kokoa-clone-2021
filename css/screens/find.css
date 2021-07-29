@@ -78,3 +78,21 @@
 .open-post__heart-count span {
   margin-left: 5px;
 }
+@keyframes heartbeat {
+  0% {
+    transform: none;
+    color: white;
+  }
+  50% {
+    transform: scale(1.7);
+    color: red;
+  }
+  100% {
+    transform: none;
+    color: white;
+  }
+}
+.open-post__photo:hover .fa-heart {
+  will-change: transform;
+  animation: heartbeat 1.2s ease-in-out infinite;
+}
